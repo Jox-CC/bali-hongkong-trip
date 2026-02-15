@@ -51,7 +51,7 @@ export const attractionDetails: Record<string, { description: string; image: str
   },
   '情人崖': {
     description: '巴厘岛著名的悬崖景点，可俯瞰印度洋壮丽海景。传说有一对恋人从这里跳海殉情，因此得名。',
-    image: '2-uluwatu.jpg',
+    image: 'attractions/uluwatu-cliff.jpg',
     tips: '注意猴子，不要佩戴眼镜和首饰'
   },
   '乌鲁瓦图寺': {
@@ -65,7 +65,7 @@ export const attractionDetails: Record<string, { description: string; image: str
   },
   '乌鲁瓦图滑翔伞': {
     description: '在情人崖附近体验刺激的滑翔伞运动，从高空俯瞰壮丽的印度洋海岸线和悬崖美景。',
-    image: '2-uluwatu.jpg',
+    image: 'attractions/uluwatu-paragliding.jpg',
     tips: '建议提前预订，最佳飞行时间是早上或傍晚'
   },
   '沙努尔凯悦酒店': {
@@ -105,7 +105,7 @@ export const attractionDetails: Record<string, { description: string; image: str
   },
   '佩妮达岛码头': {
     description: '前往佩妮达岛的主要港口。从这里可以租摩托车或包车游览岛上景点。',
-    image: '4-kelingking.jpg'
+    image: 'attractions/nusa-penida-dock.jpg'
   },
   '精灵坠崖': {
     description: '佩妮达岛最著名的景点，形似恐龙的海岸悬崖。是Instagram上最火的打卡地之一。',
@@ -138,7 +138,7 @@ export const attractionDetails: Record<string, { description: string; image: str
   },
   '重庆大厦': {
     description: '香港最具代表性的建筑之一，汇集了来自世界各地的商家和居民，充满多元文化气息。',
-    image: '6-hongkong.jpg'
+    image: 'attractions/chungking-mansion.jpg'
   },
   '星光大道': {
     description: '位于尖沙咀海滨的步行道，展示了香港电影明星的手印和雕像。',
@@ -286,7 +286,7 @@ export const tripData: DayData[] = [
     ],
     locations: [
       { name: "沙努尔码头", lat: -8.6800, lng: 115.2650, type: "transport", image: "attractions/sanur-beach.jpg", description: "前往蓝梦岛的主要出发点" },
-      { name: "蓝梦岛码头", lat: -8.6780, lng: 115.4400, type: "transport", image: "3-devilstear.jpg" },
+      { name: "蓝梦岛码头", lat: -8.6780, lng: 115.4400, type: "transport", image: "day3-devilstear.jpg" },
       { name: "恶魔的眼泪", lat: -8.7280, lng: 115.4550, type: "attraction", image: "attractions/devils-tear.jpg", description: "蓝梦岛最著名的景点" },
       { name: "梦幻海滩", lat: -8.7300, lng: 115.4500, type: "attraction", image: "attractions/dream-beach.jpg", description: "蓝梦岛最美的海滩之一" },
       { name: "黄桥", lat: -8.7200, lng: 115.4400, type: "attraction", image: "attractions/yellow-bridge.jpg", description: "连接蓝梦岛和金银岛的标志性桥梁" },
