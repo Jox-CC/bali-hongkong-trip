@@ -51,7 +51,7 @@ export const attractionDetails: Record<string, { description: string; image: str
   },
   '情人崖': {
     description: '巴厘岛著名的悬崖景点，可俯瞰印度洋壮丽海景。传说有一对恋人从这里跳海殉情，因此得名。',
-    image: 'attractions/uluwatu-cliff.jpg',
+    image: 'attractions/uluwatu-temple.jpg',
     tips: '注意猴子，不要佩戴眼镜和首饰'
   },
   '乌鲁瓦图寺': {
@@ -65,7 +65,7 @@ export const attractionDetails: Record<string, { description: string; image: str
   },
   '乌鲁瓦图滑翔伞': {
     description: '在情人崖附近体验刺激的滑翔伞运动，从高空俯瞰壮丽的印度洋海岸线和悬崖美景。',
-    image: 'attractions/uluwatu-paragliding.jpg',
+    image: 'attractions/uluwatu-resort.jpg',
     tips: '建议提前预订，最佳飞行时间是早上或傍晚'
   },
   '沙努尔凯悦酒店': {
@@ -105,7 +105,7 @@ export const attractionDetails: Record<string, { description: string; image: str
   },
   '佩妮达岛码头': {
     description: '前往佩妮达岛的主要港口。从这里可以租摩托车或包车游览岛上景点。',
-    image: 'attractions/nusa-penida-dock.jpg'
+    image: 'attractions/broken-beach.jpg'
   },
   '精灵坠崖': {
     description: '佩妮达岛最著名的景点，形似恐龙的海岸悬崖。是Instagram上最火的打卡地之一。',
@@ -138,7 +138,7 @@ export const attractionDetails: Record<string, { description: string; image: str
   },
   '重庆大厦': {
     description: '香港最具代表性的建筑之一，汇集了来自世界各地的商家和居民，充满多元文化气息。',
-    image: 'attractions/chungking-mansion.jpg'
+    image: 'attractions/victoria-harbour.jpg'
   },
   '星光大道': {
     description: '位于尖沙咀海滨的步行道，展示了香港电影明星的手印和雕像。',
@@ -240,7 +240,7 @@ export const tripData: DayData[] = [
     date: "2月21日",
     title: "乌鲁瓦图悬崖风光",
     subtitle: "探索巴厘岛南部的壮丽海岸线",
-    image: "2-uluwatu.jpg",
+    image: "day2-uluwatu.jpg",
     highlights: ["情人崖", "乌鲁瓦图滑翔伞", "乌鲁瓦图寺", "宾艮海滩", "沙努尔"],
     activities: [
       { time: "09:30", description: "酒店出发，包车一日游", icon: "🚗" },
@@ -255,8 +255,8 @@ export const tripData: DayData[] = [
     ],
     locations: [
       { name: "乌鲁瓦图万丽酒店", lat: -8.8291, lng: 115.1590, type: "hotel", image: "attractions/uluwatu-resort.jpg" },
-      { name: "情人崖", lat: -8.8289, lng: 115.0835, type: "attraction", image: "2-uluwatu.jpg", description: "巴厘岛著名的悬崖景点" },
-      { name: "乌鲁瓦图滑翔伞", lat: -8.8300, lng: 115.0850, type: "attraction", image: "2-uluwatu.jpg", description: "刺激的滑翔伞运动体验" },
+      { name: "情人崖", lat: -8.8289, lng: 115.0835, type: "attraction", image: "attractions/uluwatu-temple.jpg", description: "巴厘岛著名的悬崖景点" },
+      { name: "乌鲁瓦图滑翔伞", lat: -8.8300, lng: 115.0850, type: "attraction", image: "attractions/uluwatu-resort.jpg", description: "刺激的滑翔伞运动体验" },
       { name: "乌鲁瓦图寺", lat: -8.8291, lng: 115.0840, type: "attraction", image: "attractions/uluwatu-temple.jpg", description: "建于悬崖边缘的古老印度教寺庙" },
       { name: "宾艮海滩", lat: -8.8050, lng: 115.1100, type: "attraction", image: "attractions/bingin-beach.jpg", description: "著名的冲浪胜地" },
       { name: "沙努尔凯悦酒店", lat: -8.6800, lng: 115.2650, type: "hotel", image: "attractions/hyatt-sanur.jpg", description: "位于沙努尔海滩的豪华度假村" }
@@ -272,7 +272,7 @@ export const tripData: DayData[] = [
     date: "2月22日",
     title: "蓝梦岛环岛探险",
     subtitle: "骑摩托车探索蓝梦岛的自然奇观",
-    image: "3-devilstear.jpg",
+    image: "day3-devilstear.jpg",
     highlights: ["恶魔的眼泪", "梦幻海滩", "黄桥", "金银岛"],
     activities: [
       { time: "10:30", description: "沙努尔码头乘快船前往蓝梦岛", icon: "🚤", locationName: "沙努尔码头" },
@@ -304,7 +304,7 @@ export const tripData: DayData[] = [
     date: "2月23日",
     title: "佩妮达岛精华东线",
     subtitle: "探访网红打卡地精灵坠崖",
-    image: "4-kelingking.jpg",
+    image: "day4-kelingking.jpg",
     highlights: ["精灵坠崖", "天神浴池", "破碎海滩", "努沙杜瓦"],
     activities: [
       { time: "09:30", description: "乘船前往佩妮达岛", icon: "🚤", locationName: "佩妮达岛码头" },
@@ -318,7 +318,7 @@ export const tripData: DayData[] = [
     ],
     locations: [
       { name: "沙努尔码头", lat: -8.6800, lng: 115.2650, type: "transport", image: "attractions/sanur-beach.jpg" },
-      { name: "佩妮达岛码头", lat: -8.6780, lng: 115.5150, type: "transport", image: "4-kelingking.jpg" },
+      { name: "佩妮达岛码头", lat: -8.6780, lng: 115.5150, type: "transport", image: "attractions/nusa-penida-dock.jpg" },
       { name: "精灵坠崖", lat: -8.7500, lng: 115.4750, type: "attraction", image: "attractions/kelingking-beach.jpg", description: "佩妮达岛最著名的景点" },
       { name: "天神浴池", lat: -8.7350, lng: 115.3800, type: "attraction", image: "attractions/broken-beach.jpg", description: "天然形成的岩石泳池" },
       { name: "破碎海滩", lat: -8.7330, lng: 115.3820, type: "attraction", image: "attractions/broken-beach.jpg", description: "因岩石拱门形成的天然海湾" },
