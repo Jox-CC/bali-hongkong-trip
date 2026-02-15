@@ -34,19 +34,19 @@ export interface Location {
 export const attractionDetails: Record<string, { description: string; image: string; tips?: string }> = {
   '上海浦东机场': {
     description: '中国主要的国际机场之一，是此次旅程的起点。拥有现代化的航站楼和完善的设施。',
-    image: '/attractions/shanghai-airport.jpg'
+    image: 'attractions/shanghai-airport.jpg'
   },
   '香港机场': {
     description: '全球领先的国际机场，连接世界各地的枢纽。多次被评为全球最佳机场之一。',
-    image: '/attractions/hongkong-airport.jpg'
+    image: 'attractions/hongkong-airport.jpg'
   },
   '巴厘岛登巴萨机场': {
     description: '巴厘岛的主要国际机场，位于岛屿南部。机场建筑融合了巴厘岛传统建筑风格。',
-    image: '/attractions/bali-airport.jpg'
+    image: 'attractions/bali-airport.jpg'
   },
   '乌鲁瓦图万丽酒店': {
     description: '位于悬崖边的豪华度假酒店，享有壮丽海景。酒店设计融合了现代奢华与巴厘岛传统元素。',
-    image: '/attractions/uluwatu-resort.jpg',
+    image: 'attractions/uluwatu-resort.jpg',
     tips: '酒店拥有无边泳池，是观赏日落的绝佳地点'
   },
   '情人崖': {
@@ -56,12 +56,12 @@ export const attractionDetails: Record<string, { description: string; image: str
   },
   '乌鲁瓦图寺': {
     description: '建于悬崖边缘的古老印度教寺庙，是巴厘岛最神圣的寺庙之一。日落时分的Kecak舞表演不容错过。',
-    image: '/attractions/uluwatu-temple.jpg',
+    image: 'attractions/uluwatu-temple.jpg',
     tips: '进入寺庙需穿纱笼，日落时分景色最美'
   },
   '宾艮海滩': {
     description: '著名的冲浪胜地，拥有金色沙滩和清澈海水。是巴厘岛最受欢迎的冲浪点之一。',
-    image: '/attractions/bingin-beach.jpg'
+    image: 'attractions/bingin-beach.jpg'
   },
   '乌鲁瓦图滑翔伞': {
     description: '在情人崖附近体验刺激的滑翔伞运动，从高空俯瞰壮丽的印度洋海岸线和悬崖美景。',
@@ -70,38 +70,38 @@ export const attractionDetails: Record<string, { description: string; image: str
   },
   '沙努尔凯悦酒店': {
     description: '位于沙努尔海滩的豪华度假村，环境宁静优美。是前往蓝梦岛的理想住宿地点。',
-    image: '/attractions/hyatt-sanur.jpg'
+    image: 'attractions/hyatt-sanur.jpg'
   },
   '沙努尔海滩': {
     description: '巴厘岛东部的宁静海滩，以日出美景著称。适合散步、游泳和观赏日出。',
-    image: '/attractions/sanur-beach.jpg'
+    image: 'attractions/sanur-beach.jpg'
   },
   '沙努尔码头': {
     description: '前往蓝梦岛和佩妮达岛的主要出发点。每天早晨有多班快船往返于各岛之间。',
-    image: '/attractions/sanur-beach.jpg',
+    image: 'attractions/sanur-beach.jpg',
     tips: '建议提前预订船票，早班船人较少'
   },
   '恶魔的眼泪': {
     description: '蓝梦岛最著名的景点，海浪冲击岩石形成壮观水雾，阳光照射下常现彩虹。',
-    image: '/attractions/devils-tear.jpg',
+    image: 'attractions/devils-tear.jpg',
     tips: '注意安全，不要靠悬崖边缘太近'
   },
   '梦幻海滩': {
     description: '蓝梦岛最美的海滩之一，白沙碧海的世外桃源。适合游泳、浮潜和日光浴。',
-    image: '/attractions/dream-beach.jpg'
+    image: 'attractions/dream-beach.jpg'
   },
   '黄桥': {
     description: '连接蓝梦岛和金银岛的标志性黄色吊桥。是拍照打卡的热门地点。',
-    image: '/attractions/yellow-bridge.jpg',
+    image: 'attractions/yellow-bridge.jpg',
     tips: '摩托车可以过桥，但需注意安全'
   },
   '金银岛观景台': {
     description: '位于金银岛的高处观景台，可俯瞰蓝梦岛和周边海域的壮丽景色。',
-    image: '/attractions/ceningan-viewpoint.jpg'
+    image: 'attractions/ceningan-viewpoint.jpg'
   },
   '蓝梦岛阿尔纳套房': {
     description: '位于蓝梦岛的精品度假酒店，提供舒适的住宿环境和贴心的服务。',
-    image: '/attractions/dream-beach.jpg'
+    image: 'attractions/dream-beach.jpg'
   },
   '佩妮达岛码头': {
     description: '前往佩妮达岛的主要港口。从这里可以租摩托车或包车游览岛上景点。',
@@ -109,32 +109,32 @@ export const attractionDetails: Record<string, { description: string; image: str
   },
   '精灵坠崖': {
     description: '佩妮达岛最著名的景点，形似恐龙的海岸悬崖。是Instagram上最火的打卡地之一。',
-    image: '/attractions/kelingking-beach.jpg',
+    image: 'attractions/kelingking-beach.jpg',
     tips: '下到海滩需要1小时，路况较陡，请量力而行'
   },
   '天神浴池': {
     description: '天然形成的岩石泳池，海水清澈见底。是游泳和拍照的绝佳地点。',
-    image: '/attractions/broken-beach.jpg'
+    image: 'attractions/broken-beach.jpg'
   },
   '破碎海滩': {
     description: '因岩石拱门形成的天然海湾，海水从拱门下涌入，景色壮观。',
-    image: '/attractions/broken-beach.jpg'
+    image: 'attractions/broken-beach.jpg'
   },
   '努沙杜瓦丽思卡尔顿': {
     description: '努沙杜瓦地区的顶级豪华度假村，拥有私人海滩和世界级的SPA设施。',
-    image: '/attractions/ritz-carlton-bali.jpg'
+    image: 'attractions/ritz-carlton-bali.jpg'
   },
   'Bali Collection': {
     description: '努沙杜瓦地区的大型购物娱乐中心，汇集国际品牌、餐厅和娱乐场所。',
-    image: '/attractions/bali-collection.jpg'
+    image: 'attractions/bali-collection.jpg'
   },
   '东涌福朋喜来登': {
     description: '位于香港东涌的现代化商务酒店，靠近机场和东荟城奥特莱斯。',
-    image: '/attractions/four-points-tungchung.webp'
+    image: 'attractions/four-points-tungchung.webp'
   },
   '尖沙咀': {
     description: '香港著名的购物和旅游区，维多利亚港畔。汇集众多购物中心、餐厅和景点。',
-    image: '/attractions/victoria-harbour.jpg'
+    image: 'attractions/victoria-harbour.jpg'
   },
   '重庆大厦': {
     description: '香港最具代表性的建筑之一，汇集了来自世界各地的商家和居民，充满多元文化气息。',
@@ -142,33 +142,33 @@ export const attractionDetails: Record<string, { description: string; image: str
   },
   '星光大道': {
     description: '位于尖沙咀海滨的步行道，展示了香港电影明星的手印和雕像。',
-    image: '/attractions/avenue-of-stars.jpg'
+    image: 'attractions/avenue-of-stars.jpg'
   },
   '维多利亚港': {
     description: '世界著名的天然良港，香港标志性景观。每晚8点的幻彩咏香江灯光秀不容错过。',
-    image: '/attractions/victoria-harbour.jpg',
+    image: 'attractions/victoria-harbour.jpg',
     tips: '推荐乘坐天星小轮横渡维港，体验百年历史'
   },
   '天星小轮': {
     description: '香港百年历史的渡轮服务，连接尖沙咀和中环/湾仔。是游览维港的经典方式。',
-    image: '/attractions/star-ferry.jpg',
+    image: 'attractions/star-ferry.jpg',
     tips: '上层甲板视野更好，票价仅需几港币'
   },
   '金紫荆广场': {
     description: '香港回归纪念地标，每天举行升旗仪式。广场上的金紫荆雕塑是香港的标志。',
-    image: '/attractions/golden-bauhinia.jpg'
+    image: 'attractions/golden-bauhinia.jpg'
   },
   '旺角': {
     description: '香港最繁华的商业区之一，充满市井气息。汇集众多商店、餐厅和街头小吃。',
-    image: '/attractions/goldfish-market.jpg'
+    image: 'attractions/goldfish-market.jpg'
   },
   '金鱼街': {
     description: '旺角著名的宠物街，出售各种观赏鱼、宠物和宠物用品。是体验香港市井文化的好去处。',
-    image: '/attractions/goldfish-market.jpg'
+    image: 'attractions/goldfish-market.jpg'
   },
   '油麻地庙街': {
     description: '香港最著名的夜市，汇集各种平价商品、小吃和街头表演。是体验香港夜生活的好去处。',
-    image: '/attractions/temple-street.jpg',
+    image: 'attractions/temple-street.jpg',
     tips: '晚上8点后最热闹，可以尝试街边大牌档'
   }
 };
@@ -177,31 +177,31 @@ export const attractionDetails: Record<string, { description: string; image: str
 export const hotelData: Record<number, { name: string; image: string; description: string; tips?: string }> = {
   1: {
     name: '乌鲁瓦图万丽酒店',
-    image: '/attractions/uluwatu-resort.jpg',
+    image: 'attractions/uluwatu-resort.jpg',
     description: '位于悬崖边的豪华度假酒店，享有壮丽海景。酒店设计融合了现代奢华与巴厘岛传统元素，拥有无边泳池和世界级SPA。',
     tips: '推荐预订海景房，日落时分景色绝美'
   },
   2: {
     name: '沙努尔凯悦酒店',
-    image: '/attractions/hyatt-sanur.jpg',
+    image: 'attractions/hyatt-sanur.jpg',
     description: '位于沙努尔海滩的豪华度假村，环境宁静优美。酒店拥有私人海滩和多个泳池，是前往蓝梦岛的理想住宿地点。',
     tips: '酒店提供前往码头的接送服务'
   },
   3: {
     name: '蓝梦岛阿尔纳套房',
-    image: '/attractions/dream-beach.jpg',
+    image: 'attractions/dream-beach.jpg',
     description: '位于蓝梦岛的精品度假酒店，提供舒适的住宿环境和贴心的服务。步行即可到达梦幻海滩和恶魔的眼泪。',
     tips: '可以租摩托车环岛，酒店可协助安排'
   },
   4: {
     name: '努沙杜瓦丽思卡尔顿',
-    image: '/attractions/ritz-carlton-bali.jpg',
+    image: 'attractions/ritz-carlton-bali.jpg',
     description: '努沙杜瓦地区的顶级豪华度假村，拥有私人海滩和世界级的SPA设施。酒店提供多种餐饮选择和娱乐活动。',
     tips: '推荐体验酒店的悬崖餐厅和日落鸡尾酒'
   },
   5: {
     name: '东涌福朋喜来登',
-    image: '/attractions/four-points-tungchung.webp',
+    image: 'attractions/four-points-tungchung.webp',
     description: '位于香港东涌的现代化商务酒店，靠近机场和东荟城奥特莱斯。酒店提供免费机场穿梭巴士服务。',
     tips: '酒店旁边就是东荟城，购物非常方便'
   }
@@ -224,14 +224,14 @@ export const tripData: DayData[] = [
       { time: "19:30", description: "酒店晚餐", icon: "🍽️" }
     ],
     locations: [
-      { name: "上海浦东机场", lat: 31.1443, lng: 121.8083, type: "airport", image: "/attractions/shanghai-airport.jpg", description: "中国主要的国际机场之一" },
-      { name: "香港机场", lat: 22.3080, lng: 113.9185, type: "airport", image: "/attractions/hongkong-airport.jpg", description: "全球领先的国际机场" },
-      { name: "巴厘岛登巴萨机场", lat: -8.7467, lng: 115.1668, type: "airport", image: "/attractions/bali-airport.jpg", description: "巴厘岛的主要国际机场" },
-      { name: "乌鲁瓦图万丽酒店", lat: -8.8291, lng: 115.1590, type: "hotel", image: "/attractions/uluwatu-resort.jpg", description: "位于悬崖边的豪华度假酒店" }
+      { name: "上海浦东机场", lat: 31.1443, lng: 121.8083, type: "airport", image: "attractions/shanghai-airport.jpg", description: "中国主要的国际机场之一" },
+      { name: "香港机场", lat: 22.3080, lng: 113.9185, type: "airport", image: "attractions/hongkong-airport.jpg", description: "全球领先的国际机场" },
+      { name: "巴厘岛登巴萨机场", lat: -8.7467, lng: 115.1668, type: "airport", image: "attractions/bali-airport.jpg", description: "巴厘岛的主要国际机场" },
+      { name: "乌鲁瓦图万丽酒店", lat: -8.8291, lng: 115.1590, type: "hotel", image: "attractions/uluwatu-resort.jpg", description: "位于悬崖边的豪华度假酒店" }
     ],
     hotel: {
       name: '乌鲁瓦图万丽酒店',
-      image: '/attractions/uluwatu-resort.jpg',
+      image: 'attractions/uluwatu-resort.jpg',
       description: '位于悬崖边的豪华度假酒店，享有壮丽海景。酒店设计融合了现代奢华与巴厘岛传统元素，拥有无边泳池和世界级SPA。'
     }
   },
@@ -254,16 +254,16 @@ export const tripData: DayData[] = [
       { time: "19:30", description: "沙努尔海鲜晚餐", icon: "🍽️" }
     ],
     locations: [
-      { name: "乌鲁瓦图万丽酒店", lat: -8.8291, lng: 115.1590, type: "hotel", image: "/attractions/uluwatu-resort.jpg" },
+      { name: "乌鲁瓦图万丽酒店", lat: -8.8291, lng: 115.1590, type: "hotel", image: "attractions/uluwatu-resort.jpg" },
       { name: "情人崖", lat: -8.8289, lng: 115.0835, type: "attraction", image: "2-uluwatu.jpg", description: "巴厘岛著名的悬崖景点" },
       { name: "乌鲁瓦图滑翔伞", lat: -8.8300, lng: 115.0850, type: "attraction", image: "2-uluwatu.jpg", description: "刺激的滑翔伞运动体验" },
-      { name: "乌鲁瓦图寺", lat: -8.8291, lng: 115.0840, type: "attraction", image: "/attractions/uluwatu-temple.jpg", description: "建于悬崖边缘的古老印度教寺庙" },
-      { name: "宾艮海滩", lat: -8.8050, lng: 115.1100, type: "attraction", image: "/attractions/bingin-beach.jpg", description: "著名的冲浪胜地" },
-      { name: "沙努尔凯悦酒店", lat: -8.6800, lng: 115.2650, type: "hotel", image: "/attractions/hyatt-sanur.jpg", description: "位于沙努尔海滩的豪华度假村" }
+      { name: "乌鲁瓦图寺", lat: -8.8291, lng: 115.0840, type: "attraction", image: "attractions/uluwatu-temple.jpg", description: "建于悬崖边缘的古老印度教寺庙" },
+      { name: "宾艮海滩", lat: -8.8050, lng: 115.1100, type: "attraction", image: "attractions/bingin-beach.jpg", description: "著名的冲浪胜地" },
+      { name: "沙努尔凯悦酒店", lat: -8.6800, lng: 115.2650, type: "hotel", image: "attractions/hyatt-sanur.jpg", description: "位于沙努尔海滩的豪华度假村" }
     ],
     hotel: {
       name: '沙努尔凯悦酒店',
-      image: '/attractions/hyatt-sanur.jpg',
+      image: 'attractions/hyatt-sanur.jpg',
       description: '位于沙努尔海滩的豪华度假村，环境宁静优美。酒店拥有私人海滩和多个泳池，是前往蓝梦岛的理想住宿地点。'
     }
   },
@@ -285,17 +285,17 @@ export const tripData: DayData[] = [
       { time: "18:00", description: "沙滩俱乐部晚餐", icon: "🍽️" }
     ],
     locations: [
-      { name: "沙努尔码头", lat: -8.6800, lng: 115.2650, type: "transport", image: "/attractions/sanur-beach.jpg", description: "前往蓝梦岛的主要出发点" },
+      { name: "沙努尔码头", lat: -8.6800, lng: 115.2650, type: "transport", image: "attractions/sanur-beach.jpg", description: "前往蓝梦岛的主要出发点" },
       { name: "蓝梦岛码头", lat: -8.6780, lng: 115.4400, type: "transport", image: "3-devilstear.jpg" },
-      { name: "恶魔的眼泪", lat: -8.7280, lng: 115.4550, type: "attraction", image: "/attractions/devils-tear.jpg", description: "蓝梦岛最著名的景点" },
-      { name: "梦幻海滩", lat: -8.7300, lng: 115.4500, type: "attraction", image: "/attractions/dream-beach.jpg", description: "蓝梦岛最美的海滩之一" },
-      { name: "黄桥", lat: -8.7200, lng: 115.4400, type: "attraction", image: "/attractions/yellow-bridge.jpg", description: "连接蓝梦岛和金银岛的标志性桥梁" },
-      { name: "金银岛观景台", lat: -8.7180, lng: 115.4450, type: "attraction", image: "/attractions/ceningan-viewpoint.jpg", description: "可俯瞰蓝梦岛和周边海域的壮丽景色" },
-      { name: "蓝梦岛阿尔纳套房", lat: -8.7250, lng: 115.4450, type: "hotel", image: "/attractions/dream-beach.jpg" }
+      { name: "恶魔的眼泪", lat: -8.7280, lng: 115.4550, type: "attraction", image: "attractions/devils-tear.jpg", description: "蓝梦岛最著名的景点" },
+      { name: "梦幻海滩", lat: -8.7300, lng: 115.4500, type: "attraction", image: "attractions/dream-beach.jpg", description: "蓝梦岛最美的海滩之一" },
+      { name: "黄桥", lat: -8.7200, lng: 115.4400, type: "attraction", image: "attractions/yellow-bridge.jpg", description: "连接蓝梦岛和金银岛的标志性桥梁" },
+      { name: "金银岛观景台", lat: -8.7180, lng: 115.4450, type: "attraction", image: "attractions/ceningan-viewpoint.jpg", description: "可俯瞰蓝梦岛和周边海域的壮丽景色" },
+      { name: "蓝梦岛阿尔纳套房", lat: -8.7250, lng: 115.4450, type: "hotel", image: "attractions/dream-beach.jpg" }
     ],
     hotel: {
       name: '蓝梦岛阿尔纳套房',
-      image: '/attractions/dream-beach.jpg',
+      image: 'attractions/dream-beach.jpg',
       description: '位于蓝梦岛的精品度假酒店，提供舒适的住宿环境和贴心的服务。步行即可到达梦幻海滩和恶魔的眼泪。'
     }
   },
@@ -317,16 +317,16 @@ export const tripData: DayData[] = [
       { time: "19:30", description: "酒店内晚餐", icon: "🍽️" }
     ],
     locations: [
-      { name: "沙努尔码头", lat: -8.6800, lng: 115.2650, type: "transport", image: "/attractions/sanur-beach.jpg" },
+      { name: "沙努尔码头", lat: -8.6800, lng: 115.2650, type: "transport", image: "attractions/sanur-beach.jpg" },
       { name: "佩妮达岛码头", lat: -8.6780, lng: 115.5150, type: "transport", image: "4-kelingking.jpg" },
-      { name: "精灵坠崖", lat: -8.7500, lng: 115.4750, type: "attraction", image: "/attractions/kelingking-beach.jpg", description: "佩妮达岛最著名的景点" },
-      { name: "天神浴池", lat: -8.7350, lng: 115.3800, type: "attraction", image: "/attractions/broken-beach.jpg", description: "天然形成的岩石泳池" },
-      { name: "破碎海滩", lat: -8.7330, lng: 115.3820, type: "attraction", image: "/attractions/broken-beach.jpg", description: "因岩石拱门形成的天然海湾" },
-      { name: "努沙杜瓦丽思卡尔顿", lat: -8.8150, lng: 115.2300, type: "hotel", image: "/attractions/ritz-carlton-bali.jpg", description: "努沙杜瓦地区的顶级豪华度假村" }
+      { name: "精灵坠崖", lat: -8.7500, lng: 115.4750, type: "attraction", image: "attractions/kelingking-beach.jpg", description: "佩妮达岛最著名的景点" },
+      { name: "天神浴池", lat: -8.7350, lng: 115.3800, type: "attraction", image: "attractions/broken-beach.jpg", description: "天然形成的岩石泳池" },
+      { name: "破碎海滩", lat: -8.7330, lng: 115.3820, type: "attraction", image: "attractions/broken-beach.jpg", description: "因岩石拱门形成的天然海湾" },
+      { name: "努沙杜瓦丽思卡尔顿", lat: -8.8150, lng: 115.2300, type: "hotel", image: "attractions/ritz-carlton-bali.jpg", description: "努沙杜瓦地区的顶级豪华度假村" }
     ],
     hotel: {
       name: '努沙杜瓦丽思卡尔顿',
-      image: '/attractions/ritz-carlton-bali.jpg',
+      image: 'attractions/ritz-carlton-bali.jpg',
       description: '努沙杜瓦地区的顶级豪华度假村，拥有私人海滩和世界级的SPA设施。酒店提供多种餐饮选择和娱乐活动。'
     }
   },
@@ -346,14 +346,14 @@ export const tripData: DayData[] = [
       { time: "22:00", description: "入住香港东涌福朋喜来登酒店", icon: "🏨", locationName: "东涌福朋喜来登" }
     ],
     locations: [
-      { name: "努沙杜瓦丽思卡尔顿", lat: -8.8150, lng: 115.2300, type: "hotel", image: "/attractions/ritz-carlton-bali.jpg" },
-      { name: "登巴萨机场", lat: -8.7467, lng: 115.1668, type: "airport", image: "/attractions/bali-airport.jpg" },
-      { name: "香港机场", lat: 22.3080, lng: 113.9185, type: "airport", image: "/attractions/hongkong-airport.jpg" },
-      { name: "东涌福朋喜来登", lat: 22.2950, lng: 113.9400, type: "hotel", image: "/attractions/four-points-tungchung.webp" }
+      { name: "努沙杜瓦丽思卡尔顿", lat: -8.8150, lng: 115.2300, type: "hotel", image: "attractions/ritz-carlton-bali.jpg" },
+      { name: "登巴萨机场", lat: -8.7467, lng: 115.1668, type: "airport", image: "attractions/bali-airport.jpg" },
+      { name: "香港机场", lat: 22.3080, lng: 113.9185, type: "airport", image: "attractions/hongkong-airport.jpg" },
+      { name: "东涌福朋喜来登", lat: 22.2950, lng: 113.9400, type: "hotel", image: "attractions/four-points-tungchung.webp" }
     ],
     hotel: {
       name: '东涌福朋喜来登',
-      image: '/attractions/four-points-tungchung.webp',
+      image: 'attractions/four-points-tungchung.webp',
       description: '位于香港东涌的现代化商务酒店，靠近机场和东荟城奥特莱斯。酒店提供免费机场穿梭巴士服务。'
     }
   },
@@ -377,18 +377,18 @@ export const tripData: DayData[] = [
       { time: "19:15", description: "香港(HKG) → 上海浦东(PVG)", icon: "✈️", locationName: "香港机场" }
     ],
     locations: [
-      { name: "东涌福朋喜来登", lat: 22.2950, lng: 113.9400, type: "hotel", image: "/attractions/four-points-tungchung.webp" },
-      { name: "尖沙咀", lat: 22.2980, lng: 114.1720, type: "attraction", image: "/attractions/victoria-harbour.jpg", description: "香港著名的购物和旅游区" },
-      { name: "维多利亚港", lat: 22.2850, lng: 114.1650, type: "attraction", image: "/attractions/victoria-harbour.jpg", description: "世界著名的天然良港" },
-      { name: "天星小轮", lat: 22.2870, lng: 114.1680, type: "transport", image: "/attractions/star-ferry.jpg", description: "香港百年历史的渡轮服务" },
-      { name: "金紫荆广场", lat: 22.2830, lng: 114.1730, type: "attraction", image: "/attractions/golden-bauhinia.jpg", description: "香港回归纪念地标" },
-      { name: "旺角", lat: 22.3190, lng: 114.1690, type: "attraction", image: "/attractions/goldfish-market.jpg", description: "香港最繁华的商业区之一" },
-      { name: "油麻地庙街", lat: 22.3130, lng: 114.1710, type: "attraction", image: "/attractions/temple-street.jpg", description: "香港最著名的夜市" },
-      { name: "香港机场", lat: 22.3080, lng: 113.9185, type: "airport", image: "/attractions/hongkong-airport.jpg" }
+      { name: "东涌福朋喜来登", lat: 22.2950, lng: 113.9400, type: "hotel", image: "attractions/four-points-tungchung.webp" },
+      { name: "尖沙咀", lat: 22.2980, lng: 114.1720, type: "attraction", image: "attractions/victoria-harbour.jpg", description: "香港著名的购物和旅游区" },
+      { name: "维多利亚港", lat: 22.2850, lng: 114.1650, type: "attraction", image: "attractions/victoria-harbour.jpg", description: "世界著名的天然良港" },
+      { name: "天星小轮", lat: 22.2870, lng: 114.1680, type: "transport", image: "attractions/star-ferry.jpg", description: "香港百年历史的渡轮服务" },
+      { name: "金紫荆广场", lat: 22.2830, lng: 114.1730, type: "attraction", image: "attractions/golden-bauhinia.jpg", description: "香港回归纪念地标" },
+      { name: "旺角", lat: 22.3190, lng: 114.1690, type: "attraction", image: "attractions/goldfish-market.jpg", description: "香港最繁华的商业区之一" },
+      { name: "油麻地庙街", lat: 22.3130, lng: 114.1710, type: "attraction", image: "attractions/temple-street.jpg", description: "香港最著名的夜市" },
+      { name: "香港机场", lat: 22.3080, lng: 113.9185, type: "airport", image: "attractions/hongkong-airport.jpg" }
     ],
     hotel: {
       name: '东涌福朋喜来登',
-      image: '/attractions/four-points-tungchung.webp',
+      image: 'attractions/four-points-tungchung.webp',
       description: '位于香港东涌的现代化商务酒店，靠近机场和东荟城奥特莱斯。酒店提供免费机场穿梭巴士服务。'
     }
   }
