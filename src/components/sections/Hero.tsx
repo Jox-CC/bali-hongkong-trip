@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="grid grid-cols-2 grid-rows-2 h-full">
           <div className="relative overflow-hidden">
             <img 
-              src="/day2-uluwatu.jpg" 
+              src="day2-uluwatu.jpg" 
               alt="乌鲁瓦图" 
               className="w-full h-full object-cover opacity-60"
             />
@@ -31,7 +31,7 @@ export default function Hero() {
           </div>
           <div className="relative overflow-hidden">
             <img 
-              src="/day4-kelingking.jpg" 
+              src="day4-kelingking.jpg" 
               alt="精灵坠崖" 
               className="w-full h-full object-cover opacity-60"
             />
@@ -39,7 +39,7 @@ export default function Hero() {
           </div>
           <div className="relative overflow-hidden">
             <img 
-              src="/day3-devilstear.jpg" 
+              src="day3-devilstear.jpg" 
               alt="恶魔的眼泪" 
               className="w-full h-full object-cover opacity-60"
             />
@@ -47,7 +47,7 @@ export default function Hero() {
           </div>
           <div className="relative overflow-hidden">
             <img 
-              src="/day6-hongkong.jpg" 
+              src="day6-hongkong.jpg" 
               alt="香港" 
               className="w-full h-full object-cover opacity-60"
             />
