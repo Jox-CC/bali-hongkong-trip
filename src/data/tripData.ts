@@ -213,7 +213,7 @@ export const tripData: DayData[] = [
     date: "2月20日",
     title: "启程与抵达",
     subtitle: "从上海出发，经香港转机，抵达巴厘岛",
-    image: "1-airport.jpg",
+    image: "day1-airport.jpg",
     highlights: ["上海→香港→巴厘岛", "乌鲁瓦图万丽酒店", "酒店晚餐"],
     activities: [
       { time: "08:30", description: "上海浦东机场(PVG)出发", icon: "✈️", locationName: "上海浦东机场" },
@@ -335,7 +335,7 @@ export const tripData: DayData[] = [
     date: "2月24日",
     title: "返程至香港",
     subtitle: "告别巴厘岛，飞往香港",
-    image: "5-resort.jpg",
+    image: "day5-resort.jpg",
     highlights: ["酒店休闲", "飞往香港"],
     activities: [
       { time: "上午", description: "酒店休闲，享受泳池和海滩", icon: "👣" },
@@ -362,7 +362,7 @@ export const tripData: DayData[] = [
     date: "2月25日",
     title: "香港经典一日游",
     subtitle: "体验香港的繁华与经典",
-    image: "6-hongkong.jpg",
+    image: "day6-hongkong.jpg",
     highlights: ["尖沙咀", "维多利亚港", "天星小轮", "旺角"],
     activities: [
       { time: "08:00", description: "东涌→尖沙咀（城巴）", icon: "🚌" },
