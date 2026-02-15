@@ -78,7 +78,7 @@ function AttractionCard({ name, onClick }: { name: string; onClick: () => void }
           alt={name}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           onError={(e) => {
-            (e.target as HTMLImageElement).src = '/day1-airport.jpg';
+            (e.target as HTMLImageElement).src = 'day1-airport.jpg';
           }}
         />
       </div>
@@ -113,7 +113,7 @@ function HotelCard({ day }: { day: number }) {
           alt={hotel.name}
           className={`w-full h-full object-cover transition-transform duration-500 ${isHovered ? 'scale-110' : 'scale-100'}`}
           onError={(e) => {
-            (e.target as HTMLImageElement).src = '/day1-airport.jpg';
+            (e.target as HTMLImageElement).src = 'day1-airport.jpg';
           }}
         />
       </div>

@@ -63,7 +63,7 @@ export default function AttractionModal({ locationName, isOpen, onClose }: Attra
             alt={locationName}
             className="w-full h-full object-cover"
             onError={(e) => {
-              (e.target as HTMLImageElement).src = '/day1-airport.jpg';
+              (e.target as HTMLImageElement).src = 'day1-airport.jpg';
             }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
